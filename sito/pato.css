@@ -1,0 +1,82 @@
+.body{
+    background-color: rgb(14, 0, 71);
+    color: white;
+}
+
+.titolo{
+    text-align: center;
+    color: rgb(47, 227, 59);
+    font-size: 40px;
+    text-shadow: 2px 2px 5px rgb(255, 251, 35);
+    font-family: 'Copperplate Gothic';
+}
+
+.n1{
+    display: flex;
+}
+
+.tab{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: auto;
+    margin-right: 20px;
+    background-color: #ebf143;
+    padding: 30px;
+    gap: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 320px;
+    height: 110px;
+}
+
+.item1{
+    text-align: center;
+    color: black;
+}
+
+.item2{
+    text-align: center;
+    color: black;
+}
+
+.band{
+    width: 100px;
+}
+.descr, .forza, .decadenza, .link{
+    font-family: 'GFS Didot';
+}
+
+.link{
+    text-align: center;
+    color: white;
+}
+.img{
+    margin-right: 30px;
+    margin-left: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grassetto{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1380px){
+    .n1{
+        display: contents;
+    }
+
+    .tab{
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .descr, .forza, .decadenza, .link{
+        text-align: center;
+    }
+}

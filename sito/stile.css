@@ -1,0 +1,140 @@
+.body{
+    background-image: url(erba-sfondo.jpg);
+}
+
+#titolo{
+    color: white;
+    text-shadow: 4px 4px 6px black;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Copperplate Gothic';
+}
+
+.intro{
+    text-align: justified;
+    background-color: lightgrey;
+    border: 5px solid rgb(142, 105, 30);
+    padding: 10px;
+    width: 300px;
+    font-family: 'GFS Didot';
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img1{
+    width: 400px;
+    border: 5px solid rgb(155, 36, 36);
+    margin-right: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.n1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.n2{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.img2{
+    margin-left: 50px;
+    width: 300px;
+    border: 5px solid rgb(155, 36, 36);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.intro1{
+    text-align: right;
+    background-color: lightgrey;
+    border: 5px solid rgb(142, 105, 30);
+    padding: 10px;
+    width: 400px;
+    font-family: 'GFS Didot';
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.n3{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.n4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img3{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 400px;
+    border: 5px solid rgb(155, 36, 36);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cont{
+    background-color: lightgrey;
+    border: 5px solid rgb(25, 30, 170);
+    padding: 10px;
+    width: 1200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    font-family: 'GFS Didot';
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon{
+    margin: 30px;
+    height: 160px;
+}
+
+@media only screen and (max-width: 1600px){
+    .n1, .n2, .n3{
+        display: contents;
+        align-content: center;
+    }
+
+    .n4{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img1, .img2, .img3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .intro, .intro1, .cont{
+        margin: auto;
+        text-align: center;
+    }
+
+    .intro, .cont{
+        margin-top: 30px;
+    }
+
+    .intro1{
+        margin-bottom: 30px;
+    }
+
+    .icon{
+        margin: 15px;
+    }
+
+    .cont{
+        width: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
